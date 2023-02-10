@@ -1,0 +1,322 @@
+:root {
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --brand-color: #2196f3;
+}
+body {
+  font-family: 'roboto', sans-serif;
+  color: var(--main-color);
+  list-style: none;
+  width: 1600px;
+}
+svg {
+  transform-origin: center;
+}
+
+a {
+  text-decoration: none;
+}
+/* navigation*/
+header {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+  border: 1px solid #ececec;
+}
+.container-header {
+  display: flex;
+  height: 80px;
+  align-items: center;
+  width: 1200px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.logo-top > a {
+  text-decoration: none;
+  font-family: 'Raleway';
+  color: #000;
+  font-size: 26px;
+  line-height: 1.1;
+}
+.logo-first-part {
+  color: var(--brand-color);
+}
+.navbar,
+.navbar > li > a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  margin-right: 373px;
+}
+.icon-header {
+  display: inline-block;
+  fill: var(--secondary-color);
+  height: 12px;
+}
+.contact-email-header {
+  display: inline-block;
+  width: 161px;
+  /* margin-right: 50px;*/
+}
+.contact-phone-header {
+  display: inline-block;
+}
+.navbar > li > a:hover,
+.navbar > li > a:focus {
+  color: var(--brand-color);
+}
+.contact-phone-header > a,
+.contact-email-header > a {
+  text-decoration: none;
+  font-size: 14px;
+  color: var(--main-color);
+}
+
+.contact-phone-header > a:hover,
+.contact-phone-header > a:focus,
+.contact-email-header > a:hover,
+.contact-email-header > a:focus {
+  color: var(--brand-color);
+}
+
+/* navigation*/
+
+/*main*/
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  color: #fff;
+  line-height: 1.3;
+  letter-spacing: 3px;
+  padding-top: 200px;
+  padding-bottom: 30px;
+  margin: 0;
+}
+.main-page-box {
+  background-color: #2f303a;
+  background-image: url('../images/10.jpg'), url('../images/11.jpg');
+  text-align: center;
+  height: 600px;
+}
+.button-main-page {
+  background: var(--brand-color);
+  font-weight: 700;
+  color: #fff;
+  line-height: 30px;
+  border-radius: 4px;
+  border: none;
+}
+.button-main-page:hover,
+.button-main-page:focus {
+  color: var(--main-color);
+  cursor: pointer;
+}
+.main-page-first-container {
+  margin: 94px auto;
+  width: 1200px;
+}
+.main-page-first-container-list {
+  display: flex;
+  flex-basis: calc((100%-90px) / 4);
+  gap: 30px;
+  justify-content: space-between;
+}
+.main-page-first-container-title {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+.main-page-first-container-list > li {
+  list-style: none;
+}
+.main-page-first-container-list > li > p {
+  color: var(--secondary-color);
+  line-height: 1.7;
+  margin: 0;
+}
+.main-page-first-container-list {
+  padding-inline-start: 0px;
+}
+.main-page-container-title {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1;
+  margin: 0;
+  padding: 94px 0 50px 0;
+}
+.main-page-second-container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 94px;
+}
+.main-page-second-container-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 0;
+}
+
+.main-page-third-container > li {
+  list-style: none;
+  text-align: center;
+}
+.main-page-third-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  gap: 30px;
+  flex-basis: calc((100%-90px) / 4);
+
+  padding: 0;
+  padding-bottom: 94px;
+}
+.main-page-third-container > li > figure {
+  margin: 0px;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 4px 4px;
+  height: 368px;
+}
+.main-page-third-container-section {
+  margin: 0 auto;
+  width: 1170px;
+}
+.main-page-third-container-section-box {
+  background: #f5f4fa;
+}
+
+.main-page-third-container-photo-title {
+  font-weight: 500;
+  line-height: 1.1;
+}
+.main-page-third-container > li > figure > img {
+  border-top-right-radius: 4px;
+  border-top-left-radius: 4px;
+}
+.main-page-third-container-photo-description {
+  color: var(--secondary-color);
+  line-height: 1.1;
+}
+.main-page-third-container > li > figure > figcaption {
+  padding: 30px 70px;
+}
+
+/*main*/
+
+/*portfolio*/
+
+.main-buttons {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  padding-inline-start: 0px;
+  margin: 94px 0px 34px 0px;
+}
+.main-button {
+  color: var(--main-color);
+  background-color: #f5f4fa;
+  line-height: 1.6;
+  border-radius: 4px;
+  border: none;
+}
+.main-buttons > li > button {
+  font-weight: 500;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 6px 22px;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: var(--brand-color);
+  list-style: none;
+  cursor: pointer;
+  color: #fff;
+}
+.portfolio-examples-container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 94px;
+}
+.portfolio-examples {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  flex-basis: calc((100%-60px) / 3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.portfolio-examples > li > figure {
+  margin: 0;
+}
+.image-description-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.image-description {
+  color: var(--secondary-color);
+  line-height: 1.8;
+}
+
+/*portfolio*/
+
+/*footer*/
+.logo-bottom > a {
+  text-decoration: none;
+  font-family: 'Raleway';
+  color: #fff;
+  font-size: 26px;
+  line-height: 1.1;
+}
+
+footer {
+  background-color: #2f303a;
+}
+.container-footer {
+  padding-top: 60px;
+  padding-left: 215px;
+  padding-bottom: 60px;
+}
+.address > p > {
+  text-decoration: none;
+  line-height: 1.7;
+}
+.address-street {
+  font-style: normal;
+  font-size: 14px;
+  color: #fff;
+}
+
+.contact-email > a {
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff60;
+  text-decoration: none;
+}
+.contact-phone > a {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  color: #ffffff60;
+}
+.contact-email > a:hover,
+.contact-email > a:focus,
+.contact-phone > a:hover,
+.contact-phone > a:focus {
+  color: var(--brand-color);
+}
+
+/*footer*/
