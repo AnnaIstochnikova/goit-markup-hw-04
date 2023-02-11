@@ -54,6 +54,7 @@ header {
 .icon-header {
   display: inline;
   fill: var(--secondary-color);
+  height: fit-content;
 }
 .contact-email-header {
   display: inline-block;
