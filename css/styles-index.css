@@ -52,7 +52,7 @@ header {
   margin-right: 373px;
 }
 .icon-header {
-  display: inline-block;
+  display: inline;
   fill: var(--secondary-color);
 }
 .contact-email-header {
