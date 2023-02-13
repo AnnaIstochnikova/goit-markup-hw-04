@@ -51,7 +51,7 @@ header {
   gap: 45px;
   margin-right: 373px;
 }
-.icon-header {
+.contact-email-header > svg {
   display: inline;
   fill: var(--secondary-color);
   height: 13;
