@@ -52,8 +52,7 @@ header {
   margin-right: 373px;
 }
 .icon-header {
-  height: 12px;
-  width: 16px;
+  fill: #757575;
 }
 .contact-email-header {
   display: inline-block;
@@ -79,14 +78,16 @@ header {
 .contact-email-header > a:hover,
 .contact-email-header > a:focus {
   color: var(--brand-color);
+  fill: var(--brand-color);
 }
-.contact-top > div > a:hover,
+/*.contact-top > div > a:hover,
 .contact-top > div > a:focus,
 .icon-header:focus,
 .icon-header:hover {
   color: var(--brand-color);
   fill: var(--brand-color);
 }
+*/
 
 /* navigation*/
 
