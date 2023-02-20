@@ -160,7 +160,7 @@ h1 {
   text-align: center;
   line-height: 1;
   margin: 0;
-  padding: 94px 0 50px 0;
+  padding-bottom: 50px;
 }
 .main-page-second-container {
   width: 1200px;
@@ -201,8 +201,6 @@ h1 {
   justify-content: space-between;
   gap: 30px;
   flex-basis: calc((100%-90px) / 4);
-
-  padding: 0;
   padding-bottom: 94px;
 }
 .main-page-third-container > li > figure {
@@ -214,6 +212,7 @@ h1 {
 .main-page-third-container-section {
   margin: 0 auto;
   width: 1170px;
+  padding-top: 94px;
 }
 .main-page-third-container-section-box {
   background: #f5f4fa;
@@ -255,6 +254,7 @@ h1 {
   width: 1170px;
   margin: 0 auto;
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 /*main*/
@@ -345,6 +345,7 @@ footer {
   padding-top: 60px;
   padding-left: 215px;
   padding-bottom: 60px;
+  display: inline-block;
 }
 .address > p > {
   text-decoration: none;
@@ -375,7 +376,10 @@ footer {
   color: var(--brand-color);
 }
 .main-page-footer-container {
-  padding-left: 531px;
+  padding-left: 70px;
+  padding-bottom: 90px;
+
+  display: inline-block;
 }
 .main-page-footer-icons {
   display: flex;
