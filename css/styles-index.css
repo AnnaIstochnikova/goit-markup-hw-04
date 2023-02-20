@@ -80,14 +80,12 @@ header {
   color: var(--brand-color);
   fill: var(--brand-color);
 }
-/*.contact-top > div > a:hover,
-.contact-top > div > a:focus,
+
 .icon-header:focus,
 .icon-header:hover {
   color: var(--brand-color);
   fill: var(--brand-color);
 }
-*/
 
 /* navigation*/
 
@@ -203,6 +201,7 @@ h1 {
   gap: 30px;
   flex-basis: calc((100%-90px) / 4);
   padding-bottom: 94px;
+  padding-left: 0px;
 }
 .main-page-third-container > li > figure {
   margin: 0px;
@@ -212,11 +211,13 @@ h1 {
 }
 .main-page-third-container-section {
   margin: 0 auto;
-  width: 1170px;
+  width: 1200px;
   padding-top: 94px;
+  padding-left: 0px;
 }
 .main-page-third-container-section-box {
   background: #f5f4fa;
+  padding-left: 0px;
 }
 
 .main-page-third-container-photo-title {
@@ -237,11 +238,14 @@ h1 {
 .main-page-fourth-container-icon {
   width: 170px;
   height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
 }
 .main-page-fourth-container-icon:hover,
 .main-page-fourth-container-icon:focus {
   fill: var(--brand-color);
-  border-color: var(--brand-color);
+  border: 1px solid var(--brand-color);
 }
 
 .main-page-fourth-container-section > ul {
@@ -252,7 +256,7 @@ h1 {
   margin: 0 auto;
 }
 .main-page-fourth-container-section {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding-bottom: 94px;
   padding-top: 94px;
