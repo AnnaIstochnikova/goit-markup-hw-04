@@ -54,37 +54,32 @@ header {
 .icon-header {
   fill: #757575;
 }
-.contact-email-header {
+.contact-header {
   display: inline-block;
   width: 161px;
   /* margin-right: 50px;*/
 }
-.contact-phone-header {
+.contact-header {
   display: inline-block;
 }
 .navbar > li > a:hover,
 .navbar > li > a:focus {
   color: var(--brand-color);
 }
-.contact-phone-header > a,
-.contact-email-header > a {
+.contact-header > a,
+.contact-header > a {
   text-decoration: none;
   font-size: 14px;
   color: var(--main-color);
 }
 
-.contact-phone-header > a:hover,
-.contact-phone-header > a:focus,
-.contact-email-header > a:hover,
-.contact-email-header > a:focus {
-  color: var(--brand-color);
+.contact-header > a:hover .icon-header,
+.contact-header > a:focus .icon-header {
   fill: var(--brand-color);
 }
-
-.icon-header:focus,
-.icon-header:hover {
+.contact-header > a:hover,
+.contact-header > a:focus {
   color: var(--brand-color);
-  fill: var(--brand-color);
 }
 
 /* navigation*/
@@ -345,12 +340,12 @@ h1 {
 
 footer {
   background-color: #2f303a;
+  display: flex;
 }
 .container-footer {
   padding-top: 60px;
   padding-left: 215px;
   padding-bottom: 60px;
-  display: inline-block;
 }
 .address > p > {
   text-decoration: none;
@@ -362,35 +357,27 @@ footer {
   color: #fff;
 }
 
-.contact-email > a {
-  font-style: normal;
-  font-size: 14px;
-  color: #ffffff60;
-  text-decoration: none;
-}
-.contact-phone > a {
+.contact-footer > a {
   text-decoration: none;
   font-style: normal;
   font-size: 14px;
   color: #ffffff60;
 }
-.contact-email > a:hover,
-.contact-email > a:focus,
-.contact-phone > a:hover,
-.contact-phone > a:focus {
+.contact-footer > a:hover,
+.contact-footer > a:focus {
   color: var(--brand-color);
 }
 .main-page-footer-container {
   padding-left: 70px;
-  padding-bottom: 90px;
-
-  display: inline-block;
+  padding-bottom: 60px;
+  padding-top: 50px;
 }
 .main-page-footer-icons {
   display: flex;
   justify-content: space-around;
   width: 206px;
   height: 70px;
+  padding-bottom: 90px;
 }
 .main-page-footer-icon:hover,
 .main-page-footer-icon:focus {
